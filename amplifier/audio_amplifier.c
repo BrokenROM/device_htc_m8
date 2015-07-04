@@ -67,18 +67,8 @@ static int amp_set_output_devices(amplifier_device_t *device, uint32_t devices)
     return 0;
 }
 
-static int amp_enable_output_devices(UNUSED amplifier_device_t *device,
+static int amp_enable_output_devices(amplifier_device_t *device,
         uint32_t devices, bool enable)
-{
-    if (devices & DEVICE_OUT_SPEAKER) {
-        tfa9887_power(enable);
-    }
-
-    return 0;
-}
-
-static int amp_output_stream_start(amplifier_device_t *device,
-        UNUSED struct audio_stream_out *stream, UNUSED bool offload)
 {
     m8_device_t *dev = (m8_device_t *) device;
 
