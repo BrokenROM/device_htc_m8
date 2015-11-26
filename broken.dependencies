@@ -3,7 +3,7 @@
     "remote": "github",
     "repository":   "CyanogenMod/android_kernel_htc_msm8974",
     "target_path":  "kernel/htc/msm8974",
-    "branch":       "cm-12.1"
+    "branch":       "cm-13.0"
   },
   {
     "remote": "github",
