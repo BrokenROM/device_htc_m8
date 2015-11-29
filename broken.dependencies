@@ -1,24 +1,24 @@
 [
   {
-    "remote": "github",
+    "remote":       "github",
     "repository":   "CyanogenMod/android_kernel_htc_msm8974",
     "target_path":  "kernel/htc/msm8974",
     "branch":       "cm-13.0"
   },
   {
-    "remote": "github",
-    "repository":   "CyanogenMod/android_device_htc_m8-common",
+    "remote":       "github",
+    "repository":   "BrokenROM/device_htc_m8-common",
     "target_path":  "device/htc/m8-common",
-    "branch":       "cm-13.0"
+    "branch":       "m6.0"
   },
   {
-    "remote": "github",
-    "repository":   "CyanogenMod/android_device_htc_msm8974-common",
+    "remote":       "github",
+    "repository":   "BrokenROM/device_htc_msm8974-common",
     "target_path":  "device/htc/msm8974-common",
-    "branch":       "cm-13.0"
+    "branch":       "m6.0"
   },
   {
-    "remote": "github",
+    "remote":       "github",
     "repository":   "TheMuppets/proprietary_vendor_htc",
     "target_path":  "vendor/htc",
     "branch":       "cm-13.0"
